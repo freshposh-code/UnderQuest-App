@@ -10,7 +10,7 @@ const Usage = () => {
           <h1 className={`${styles.heading2} text-center`}>
             find everything used in{" "}
             <span className="text-red-500 sm:text-6xl text-4xl font-extrabold">
-              metaverse today
+              metaverse
           
             </span>
           </h1>
