@@ -4,7 +4,7 @@ import styles from "../Style";
 
 const HeroSection = () => {
   return (
-    <div
+    <div  id="Aboutus"
       className={`${styles.paddingX} ${styles.paddingY} text-white flex md:flex-row flex-col mt-[4.5rem]`}
     >
       <div>
@@ -49,7 +49,7 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
-      <div className="mc border sm:mt-4 mt-10 rounded-br-[22%]">
+      <div className="mc sm:mt-4 mt-10 rounded-br-[22%]">
         <img
           src={Ai1}
           alt="Ai1"

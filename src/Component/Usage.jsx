@@ -5,13 +5,12 @@ import styles from "../Style";
 const Usage = () => {
   return (
     <>
-      <section id="Aboutus" className={`${styles.paddingY} ${styles.paddingX}`}>
+      <section className={`${styles.paddingY} ${styles.paddingX}`}>
         <div>
           <h1 className={`${styles.heading2} text-center`}>
             find everything used in{" "}
             <span className="text-red-500 sm:text-6xl text-4xl font-extrabold">
               metaverse
-          
             </span>
           </h1>
         </div>
