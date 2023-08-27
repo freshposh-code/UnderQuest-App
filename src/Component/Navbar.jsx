@@ -48,15 +48,15 @@ const Navbar = () => {
         <ul
           className={`${
             open ? "flex" : "hidden"
-          } text-white absolute top-[4rem] right-0 bg-[#2d0101d9] p-5 m-3 gap-5 flex flex-col rounded-bl-3xl rounded-tr-3xl`}
-        >
+          } text-white absolute top-[4rem] right-5 bg-[#2d0101d9] mt-5 p-5 gap-5 flex flex-col rounded-bl-3xl rounded-tr-3xl`}
+          >
           {navlink.map((nav) => (
-            <li className="cursor-pointer duration-300 sm:hidden flex">
+            <li className="cursor-pointer duration-300 md:hidden flex">
               <a href={nav.link}>{nav.name}</a>
             </li>
           ))}
         </ul>
-      </div>
+          </div>
     </>
   );
 };
