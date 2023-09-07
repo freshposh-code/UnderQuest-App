@@ -51,7 +51,8 @@ const Navbar = () => {
           } text-white absolute top-[4rem] right-5 bg-[#2d0101d9] mt-5 p-5 gap-5 flex flex-col rounded-bl-3xl rounded-tr-3xl`}
           >
           {navlink.map((nav) => (
-            <li className="cursor-pointer duration-300 md:hidden flex">
+            <li className="cursor-pointer duration-300 md:hidden flex"
+              onClick={() => (setOpen(!open)}>
               <a href={nav.link}>{nav.name}</a>
             </li>
           ))}
