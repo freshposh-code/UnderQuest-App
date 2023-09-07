@@ -52,7 +52,7 @@ const Navbar = () => {
           >
           {navlink.map((nav) => (
             <li className="cursor-pointer duration-300 md:hidden flex"
-              onClick={() => (setOpen(!open)}>
+              onClick={() =>{setOpen(!open)}}>
               <a href={nav.link}>{nav.name}</a>
             </li>
           ))}
