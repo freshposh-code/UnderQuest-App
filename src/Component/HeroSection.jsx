@@ -5,7 +5,7 @@ import styles from "../Style";
 const HeroSection = () => {
   return (
     <div  id="Aboutus"
-      className={`${styles.paddingX} ${styles.paddingY} text-white flex md:flex-row flex-col mt-[7rem]`}
+      className={`${styles.paddingX} ${styles.paddingY} text-white flex md:flex-row flex-col sm:mt-[5.5rem] mt-[7rem]`}
     >
       <div>
         <h1 className={`${styles.heading2}`}>
