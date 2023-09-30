@@ -53,7 +53,7 @@ const HeroSection = () => {
         <img
           src={Ai1}
           alt="Ai1"
-          className="imagebr rounded-tl-3xl relative sm:bottom-[15px] bottom-[19px] sm:right-[17px] right-[5px] md:mt-0 mt-10"
+          className="imagebr rounded-tl-3xl relative sm:bottom-[15px] bottom-[19px] sm:right-[17px] right-[5px] md:mt-0 mt-6"
         />
       </div>
     </div>
