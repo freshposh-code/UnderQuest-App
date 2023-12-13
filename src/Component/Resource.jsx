@@ -13,7 +13,7 @@ const Resource = ({Title, Desc, icon, Guide}) => {
                 {Desc}
             </p>
             <div className="flex items-center">
-            <button className='font-[600] border border-black p-4 m-3 hover:bg-black hover:text-red-500 duration-200 rounded-md'>
+            <button className='font-[600] border border-black p-4 m-3 hover:bg-black hover:text-red-500 duration-200 rounded-[33px]'>
                 {Guide}
             </button>
             {icon}
