@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
         
         <p className='text-slate-400 sm:text-[16px] text-[10px]'>
-            <sup className="text-slate-400 text-[1.2rem]">c</sup> 2023-2024. All Rights Reserved.</p>
+            <sup className="text-slate-400 text-[1.2rem]">c</sup> 2023. All Rights Reserved.</p>
     </div>
    </>
   )
