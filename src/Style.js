@@ -2,9 +2,9 @@ const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading2:
-    "font-poppins font-semibold xs:text-[48px] text-[33px] text-white xs:leading-[76.8px] leading-[50px] w-full",
+    "font-poppins font-semibold md:text-[48px] text-xl text-white md:leading-[76.8px] leading-[30px] w-full",
   paragraph:
-    "font-poppins font-normal text-dimWhite xm:text-[18px] text-[16px] leading-[30.8px]",
+    "font-poppins font-normal text-dimWhite md:text-[18px] text-[12px] md:leading-[30.8px] leading-[25px]",
 
   flexCenter: "flex justify-center items-center ",
   flexStart: "flex justify-center items-start",

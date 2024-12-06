@@ -9,14 +9,14 @@ const GetStarted = () => {
     <>
     <section id='resources' className={`${styles.paddingX} ${styles.paddingY}`}>
         <div className='bg-red-500 rounded-3xl text-center md:p-[5rem] p-[10px]'>
-<h1 className="sm:text-[3rem] text-[2rem] bold">
+<h1 className="sm:text-[3rem] text-[1.3rem] bold">
     Get started with UNDA.Quest
 </h1>
-  <p className="font-medium capitalize max-w-[750px] m-auto">
+  <p className="font-medium capitalize max-w-[750px] m-auto md:text-base text-xs py-2">
   Ultimate season with UNDA.Quest to get all METAVERSE analysis with the aim of creating a new world. Create your land
   Inside the metaverse avatars, NFTs, games,<br className='md:flex hidden' /> videos, and other assets.
   </p>
-  <button className="bg-black text-red-500 rounded-2xl px-10 py-4 m-4">
+  <button className="bg-black text-red-500 rounded-2xl md:px-10 px-5 py-4 m-4 md:text-base text-xs">
     Get Started
   </button>
         </div>

@@ -5,12 +5,12 @@ import styles from "../Style";
 const HeroSection = () => {
   return (
     <div  id="Aboutus"
-      className={`${styles.paddingX} ${styles.paddingY} text-white flex md:flex-row flex-col sm:mt-[5.5rem] mt-[7rem]`}
+      className={`${styles.paddingX} ${styles.paddingY} text-white flex md:flex-row flex-col mt-[5rem]`}
     >
       <div>
-        <h1 className={`${styles.heading2}`}>
+        <h1 className={`${styles.heading2} my-2`}>
           Let's explore your own{" "}
-          <span className="text-red-500 xs:text-6xl text-4xl font-extrabold">
+          <span className="text-red-500 xs:text-6xl text-2xl font-extrabold">
             metaverse
           </span>{" "}
           world.
@@ -53,7 +53,7 @@ const HeroSection = () => {
         <img
           src={Ai1}
           alt="Ai1"
-          className="imagebr rounded-tl-3xl relative sm:bottom-[15px] bottom-[19px] sm:right-[17px] right-[5px] md:mt-0 mt-6"
+          className="imagebr rounded-tl-3xl relative sm:bottom-[15px] bottom-[10px] sm:right-[17px] right-[8px] md:mt-0 mt-6"
         />
       </div>
     </div>

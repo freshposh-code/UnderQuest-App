@@ -8,7 +8,7 @@ const Context = () => {
     <>
     <section className={`${styles.paddingX} ${styles.marginY} flex justify-between md:flex-row flex-col`}>
     <div>
-        <h1 className={`${styles.heading2}`}>
+        <h1 className={`${styles.heading2} my-2`}>
             Create your own  <span className='text-red-500 font-extrabold'>World</span> <br className='md:flex hidden' /> now
         </h1>
         <p className={`${styles.paragraph} max-w-[750px]`}>
@@ -22,7 +22,7 @@ const Context = () => {
          <div className='flex flex-col items-center create3 bg-slate-800/20 group-hover:bg-red-500
          py-[4.5rem] px-6 rounded-md duration-300 border border-gray-700 mt-5'>
                 {item.icon}
-            <p className="text-gray-400 font-bold group-hover:text-black">
+            <p className="text-gray-400 font-bold group-hover:text-black md:text-base text-xs">
             {item.Desc}
             </p>
         </div>

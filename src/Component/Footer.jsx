@@ -12,7 +12,7 @@ const Footer = () => {
     <Diversity2Icon className='explore p-2 rounded-md' style={{fontSize:"3rem"}}/>
     <hi className="text-gradient text-[1.5rem] capitalize font-extrabold">unda quest</hi>
     </div>
-    <p className={`text-slate-500 text-[1rem] max-w-[600px] leading-[30px] mt-4`}>
+    <p className={`text-slate-500 md:text-base text-xs max-w-[600px] leading-[30px] mt-4`}>
  <span className="text-gradient text-xl">Unda Quest</span> introduces <span className="font-bold">PLASMA MAZE</span>,
      a fast-paced competitive Unreal Engine based game where you can test your skill
      against other players. Customize your Ready Player Me Avatar as you jump right into the action
@@ -27,7 +27,7 @@ const Footer = () => {
                 </h2>
                 <ul>
                     {item.link.map((items, index)=> (
-                    <li className={`${ index !== item.length -1 ? "mt-5" : "mb-0"} text-slate-400 cursor-pointer hover:text-red-500 duration-300`}>
+                    <li className={`${ index !== item.length -1 ? "mt-5" : "mb-0"} text-slate-400 cursor-pointer hover:text-red-500 duration-300 md:text-base text-xs`}>
                         {items.links}
                     </li>
                 ))}

@@ -9,7 +9,7 @@ const Acoordion = ({Title, Desc, icon, open, toggle}) => {
     <>
 <div className={`border border-slate-600 rounded-[10px] p-3 mt-3 ${open ? "bg-red-500" : "bg-[#00010f]"}`}>
     <div className="flex justify-between items-center" >
-        <p className={`leading-[30.8px] xm:text-[1rem] text-[12px] px-3 py-2 font-[800] ${open ? "text-[#000]" : "text-dimWhite"}`}>
+        <p className={`leading-[30.8px] md:text-base text-xs px-3 py-2 font-[800] ${open ? "text-[#000]" : "text-dimWhite"}`}>
              {icon} {Title}
         </p>
         <div className={`cursor-pointer ${open ? "text-black" : "text-red-500"} `} onClick={toggle}>
@@ -19,7 +19,7 @@ const Acoordion = ({Title, Desc, icon, open, toggle}) => {
         </div>
     </div>
 <Collapse isOpened={open}>
-  <div className='max-w-[700px] text-black font-[600] px-3 py-2'>{Desc}</div>
+  <div className='max-w-[700px] text-black font-[600] px-3 py-2 md:text-base text-xs'>{Desc}</div>
 </Collapse>
     </div>
 </>

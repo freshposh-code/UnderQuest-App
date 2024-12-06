@@ -9,7 +9,7 @@ const Usage = () => {
         <div>
           <h1 className={`${styles.heading2} text-center`}>
             find everything used in{" "}
-            <span className="text-red-500 sm:text-6xl text-4xl font-extrabold">
+            <span className="text-red-500 sm:text-6xl text-2xl font-extrabold">
               metaverse
             </span>
           </h1>
@@ -21,7 +21,7 @@ const Usage = () => {
                 {element.icon}
                 {element.names.map((index) => (
                   <div key={index}>
-                    <p className="text-[rgb(150,150,150)] xm:text-[1rem] text-[10px]">
+                    <p className="text-[rgb(150,150,150)] md:text-base text-xs">
                       {index.name}
                     </p>
                   </div>
